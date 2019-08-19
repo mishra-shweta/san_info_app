@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Network_Category">2bb08572db8333003decf2823996190d</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Network_Categories</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_380048_sit_network_category</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_380048_sit.network_category_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 11:41:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3b08572db8333003decf28239961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network_Categories</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Santosh Infotech Telecommunications" source="x_380048_sit">bc16ec7edb0333003decf28239961999</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Santosh Infotech Telecommunications">bc16ec7edb0333003decf28239961999</sys_scope>
+        <sys_update_name>sys_app_module_a3b08572db8333003decf28239961910</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 11:41:50</sys_updated_on>
+        <timeline_page/>
+        <title>Network_Categories</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

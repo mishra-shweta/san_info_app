@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Network_Category" max_length="40" name="x_380048_sit_network_category" type="collection">
+        <element choice="1" label="category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cable" sequence="1" value="cable"/>
+                <element inactive_on_update="false" label="Repeater" sequence="2" value="repeater"/>
+                <element inactive_on_update="false" label="Hub" sequence="3" value="hub"/>
+                <element inactive_on_update="false" label="Switch" sequence="4" value="switch"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Sub_Category" max_length="40" name="sub_category" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="hub" inactive_on_update="false" label="Active" sequence="1" value="active"/>
+                <element dependent_value="repeater" inactive_on_update="false" label="Analog" sequence="1" value="analog"/>
+                <element dependent_value="switch" inactive_on_update="false" label="SPST" sequence="1" value="spst"/>
+                <element dependent_value="cable" inactive_on_update="false" label="UTP Cable" sequence="1" value="utp_cable"/>
+                <element dependent_value="repeater" inactive_on_update="false" label="Digital" sequence="2" value="digital"/>
+                <element dependent_value="hub" inactive_on_update="false" label="Passive" sequence="2" value="passive"/>
+                <element dependent_value="switch" inactive_on_update="false" label="SPDT" sequence="2" value="spdt"/>
+                <element dependent_value="cable" inactive_on_update="false" label="STP Cable" sequence="2" value="stp_cable"/>
+                <element dependent_value="cable" inactive_on_update="false" label="Coaxial Cable" sequence="3" value="coaxial_cable"/>
+                <element dependent_value="switch" inactive_on_update="false" label="DPST" sequence="3" value="dpst"/>
+                <element dependent_value="switch" inactive_on_update="false" label="DPDT" sequence="4" value="dpdt"/>
+                <element dependent_value="cable" inactive_on_update="false" label="Fiber Optic Cable" sequence="4" value="fiber_optic_cable"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="sub_category" dependent_on_field="sub_category" label="Sub_Sub_Category" max_length="40" name="sub_sub_network_category" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="fiber_optic_cable" inactive_on_update="false" label="Belkin 3M Duplex Fiber Optic Cable" sequence="1" value="belkin_3m_duplex_fiber_optic_cable"/>
+                <element dependent_value="stp_cable" inactive_on_update="false" label="D-Link-STP 4-Pair" sequence="1" value="d_link_stp_4_pair"/>
+                <element dependent_value="utp_cable" inactive_on_update="false" label="D-Link-UTP 4-Pair" sequence="1" value="d_link_utp_4_pair"/>
+                <element dependent_value="coaxial_cable" inactive_on_update="false" label="NPC SODIAL Coaxial Cable" sequence="1" value="npc_sodial_coaxial_cable"/>
+                <element dependent_value="coaxial_cable" inactive_on_update="false" label="CABLESETC Coaxial Cable" sequence="2" value="cablesetc_coaxial_cable"/>
+                <element dependent_value="stp_cable" inactive_on_update="false" label="Schneider-STP 4-Pair" sequence="2" value="schneider_stp_4_pair"/>
+                <element dependent_value="utp_cable" inactive_on_update="false" label="Schneider-UTP 4-Pair" sequence="2" value="schneider_utp_4_pair"/>
+            </choice>
+        </element>
+    </element>
+</database>

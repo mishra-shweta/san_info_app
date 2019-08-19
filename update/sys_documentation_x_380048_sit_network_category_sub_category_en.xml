@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sub_category" label="Sub_Category" language="en" table="x_380048_sit_network_category">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sub_category</element>
+            <help/>
+            <hint/>
+            <label>Sub_Category</label>
+            <language>en</language>
+            <name>x_380048_sit_network_category</name>
+            <plural>Sub_Categories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-07 11:55:55</sys_created_on>
+            <sys_id>f5f305b2db8333003decf28239961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sub_Category</sys_name>
+            <sys_package display_value="Santosh Infotech Telecommunications" source="x_380048_sit">bc16ec7edb0333003decf28239961999</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Santosh Infotech Telecommunications">bc16ec7edb0333003decf28239961999</sys_scope>
+            <sys_update_name>sys_documentation_x_380048_sit_network_category_sub_category_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-07 11:55:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

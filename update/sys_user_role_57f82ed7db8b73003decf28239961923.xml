@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by display_value="sn_change_cab.cab_manager" name="sn_change_cab.cab_manager">d2d83927eb32120034d1eeea1206fef9</assignable_by>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>true</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_380048_sit.Manager</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Manager</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-09 08:35:18</sys_created_on>
+        <sys_id>57f82ed7db8b73003decf28239961923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_380048_sit.Manager</sys_name>
+        <sys_package display_value="Santosh Infotech Telecommunications" source="x_380048_sit">bc16ec7edb0333003decf28239961999</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Santosh Infotech Telecommunications">bc16ec7edb0333003decf28239961999</sys_scope>
+        <sys_update_name>sys_user_role_57f82ed7db8b73003decf28239961923</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-09 08:37:28</sys_updated_on>
+    </sys_user_role>
+</record_update>

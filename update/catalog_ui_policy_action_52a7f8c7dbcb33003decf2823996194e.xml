@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Network Equipments">b9676432db4333003decf282399619e8</catalog_item>
+        <catalog_variable>IO:1d9dfcbedb4333003decf2823996194e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-08 05:40:52</sys_created_on>
+        <sys_id>52a7f8c7dbcb33003decf2823996194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>equipment_sub_category</sys_name>
+        <sys_package display_value="Santosh Infotech Telecommunications" source="x_380048_sit">bc16ec7edb0333003decf28239961999</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Santosh Infotech Telecommunications">bc16ec7edb0333003decf28239961999</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_52a7f8c7dbcb33003decf2823996194e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-08 05:40:52</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Catalog UI Policy To Make Equipment Sub Category Visible">7e277487dbcb33003decf28239961911</ui_policy>
+        <variable>equipment_sub_category</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

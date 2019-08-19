@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Network Equipments">b9676432db4333003decf282399619e8</sc_cat_item>
+        <sc_category display_value="Network Equipment">d4b76832db4333003decf28239961923</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 09:54:02</sys_created_on>
+        <sys_id>ac186c32db4333003decf28239961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network Equipment.Network Equipments</sys_name>
+        <sys_package display_value="Santosh Infotech Telecommunications" source="x_380048_sit">bc16ec7edb0333003decf28239961999</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Santosh Infotech Telecommunications">bc16ec7edb0333003decf28239961999</sys_scope>
+        <sys_update_name>sc_cat_item_category_ac186c32db4333003decf28239961907</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 09:54:02</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
